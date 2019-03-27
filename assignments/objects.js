@@ -32,7 +32,8 @@ const kennan = {
   "name": "Kennan",
   "gender": "M",
   "speak": function(){
-    return "Hello my name is Kennan";
+    console.log(`Hello my name is ${this.name}.`)
+    
   }
 }
 
